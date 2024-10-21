@@ -1,7 +1,7 @@
 def book_list(books, func):
     for book in books:
         print(func(book))
-books = ['System Design','Python и DevOps','Git. Практическое руководство']
+books = ['Мартин Иден','Стоицизм','Охотники на жирафов']
 def book_print(book):
-    return book.upper() + ' - прочитано'
+    return book.upper() + ' - остался в восторге'
 book_list(books, book_print)
